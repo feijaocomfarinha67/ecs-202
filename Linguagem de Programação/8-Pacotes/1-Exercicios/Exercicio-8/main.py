@@ -22,8 +22,20 @@ enviando-os a cada iteração para avaliação num módulo externo.
 
 Dica: usa range(1, 6).
 
-5. Em cada volta do laço, pede ao utilizador para digitar a temperatura prevista para esse dia (guarda na variável temp).
+5. Em cada volta do laço, pede ao utilizador para digitar a temperatura prevista para esse dia 
+(guarda na variável temp).
 
-6. Chama a função, passando a variável temp como parâmetro, e guarda a resposta numa variável chamada estado. 
+6. Chama a função, passando a variável temp como parâmetro, e guarda a resposta numa 
+variável chamada estado. 
+
 Exibe o resultado no terminal.
 '''
+
+from clima import avaliar_temp
+
+for x in range(1, 6):
+    temp = int(input("Digite a temperatua: "))
+
+    estado = avaliar_temp(temp)
+
+    print("O dia está: ", estado)
