@@ -10,5 +10,3 @@ const barco = prompt("Qual o nome da sua embarcação? ");
 // A mágica da crase (`) e do cifrão com chaves (${})
 console.log(`\nBem-vindo a bordo, comandante ${nome}!`);
 console.log(`A embarcação ${barco} está pronta para navegar por Itajaí.`);
-
-https://euclidespaim.github.io/desenvolvimento-web/
